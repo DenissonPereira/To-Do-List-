@@ -31,3 +31,21 @@ p {
 input {
   box-sizing: border-box; /* Para n passar do limite da area */
 }
+
+button {background-color: #333974;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  opacity: .8;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
