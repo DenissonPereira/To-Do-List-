@@ -49,3 +49,19 @@ button:hover {
 .todo-form {
   padding-bottom: 1.5rem;
 }
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #d9534f;
+}
